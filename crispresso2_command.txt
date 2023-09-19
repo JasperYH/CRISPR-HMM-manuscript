@@ -1,0 +1,14 @@
+/homes8/jingyuan/anaconda3/bin/CRISPResso --fastq_r1 /homes8/jingyuan/Projects/CRISPR-HMM_manuscript/data/nhej/SRR3192757/SRR3192757_filtered.fastq --amplicon_seq ACACCATGGTGCATCTGACTCCTGTGGAGAAGTCTGCCGTTACTGCCCTG --guide_seq ATGGTGCATCTGACTCCTG -n nhej -o /homes8/jingyuan/Projects/CRISPR-HMM_manuscript/output/CRISPResso --fastq_output --file_prefix real
+
+/homes8/jingyuan/anaconda3/bin/CRISPResso --fastq_r1 /homes8/jingyuan/Projects/CRISPR-HMM_manuscript/data/nhej/SRR3192757/SRR3192757_fake.fastq --amplicon_seq ACACCATGGTGCATCTGACTCCTGTGGAGAAGTCTGCCGTTACTGCCCTG --guide_seq ATGGTGCATCTGACTCCTG -n nhej -o /homes8/jingyuan/Projects/CRISPR-HMM_manuscript/output/CRISPResso --fastq_output --file_prefix fake
+
+/homes8/jingyuan/anaconda3/bin/CRISPResso --fastq_r1 /homes8/jingyuan/Projects/CRISPR-HMM_manuscript/data/nhej/hgRNA/SRR4842571/SRR4842571_filtered.fastq --amplicon_seq GGACGAAACACCGGTCGGAGGGAGGTGGGTTAGGGGTTAGAGCTAGAAA -n nhej -o /homes8/jingyuan/Projects/CRISPR-HMM_manuscript/output/CRISPResso --fastq_output --file_prefix hgRNA
+
+/homes8/jingyuan/anaconda3/bin/CRISPResso --fastq_r1 /homes8/jingyuan/Projects/CRISPR-HMM_manuscript/data/nhej/hgRNA/SRR4842571/SRR4842571.fastq --amplicon_seq ATATGCTTACCGTAACTTGAAAGTATTTCGATTTCTTGGCTTTATATATCTTGTGGAAAGGACGAAACACCGTCGGAGGGAGGTGGGTTAGGGGTTAGAGCTAGAAATAGCAAGTTAACCTAAGGCTAGTCCGTTATCAACTTGAA --guide_seq TCGGAGGGAGGTGGGTTAG -n nhej -o /homes8/jingyuan/Projects/CRISPR-HMM_manuscript/output/CRISPResso --fastq_output --file_prefix hgRNA
+
+/homes8/jingyuan/anaconda3/bin/CRISPResso --fastq_r1 /homes8/jingyuan/Projects/CRISPR-HMM_manuscript/data/nhej/hgRNA/SRR4842590/SRR4842590_filtered.fastq --amplicon_seq TTTCTTGGCTTTATATATCTTGTGGAAAGGACGAAACACCGGTCCCCTCCACCCCACAGTGGGGTTAGAGCTAGAAATAGCAAGTTAACCT --guide_seq GTCCCCTCCACCCCACAGTG -n nhej -o /homes8/jingyuan/Projects/CRISPR-HMM_manuscript/output/CRISPResso --fastq_output --file_prefix hgRNA2
+
+/homes8/jingyuan/anaconda3/bin/CRISPResso -r1 /homes8/jingyuan/Projects/CRISPR-HMM_manuscript/data/hdr/SRR3192759/SRR3192759.extendedFrags.fastq -a acatttgcttctgacacaactgtgttcactagcaacctcaaacagacaccatggtgcatctgactcctgTggagaagtctgccgttactgccctgtggggcaaggtgaacgtggatgaagttggtggtgaggccctgggcaggttggtatcaaggtta -e acatttgcttctgacacaactgtgttcactagcaacctcaaacagacaccatggtgcaCctgactccGgaggagaagtctgccgttactgcGctgtggggcaaggtgaacgtggatgaagttggtggtgaggccctgggcaggttggtatcaaggtta -g CATGGTGCATCTGACTCCTG -n hdr -o /homes8/jingyuan/Projects/CRISPR-HMM_manuscript/output/CRISPResso --fastq_output --file_prefix hdr
+
+/homes8/jingyuan/anaconda3/bin/CRISPResso --fastq_r1 /homes8/jingyuan/Projects/CRISPR-HMM_manuscript/data/base_editor/SRR3305545_filtered.fastq --amplicon_seq TAGGGCCTTCGCGCACCTCATGGAATCCCTTCTGCAGCACCTGGATCGCTTTTCCGAGCTTC --guide_seq GGAATCCCTTCTGCAGCACC --base_editor_output --write_cleaned_report --place_report_in_output_folder -o /homes8/jingyuan/Projects/CRISPR-HMM_manuscript/output/CRISPResso --fastq_output --file_prefix base
+
